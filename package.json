@@ -1,11 +1,12 @@
 {
   "name": "cloud",
   "version": "1.0.0",
-  "description": "Azure function to fetch student count by country",
+  "description": "Azure function app",
   "main": "index.js",
   "scripts": {
     "start": "func start",
-    "test": "echo \"No test specified\""
+    "build": "echo 'No build step needed'",
+    "build:azure": "npm run build"
   },
   "dependencies": {
     "mssql": "^7.3.0",
